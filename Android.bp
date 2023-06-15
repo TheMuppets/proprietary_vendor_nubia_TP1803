@@ -6066,7 +6066,7 @@ android_app_import {
 dex_import {
 	name: "tcmclient",
 	owner: "nubia",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
@@ -6235,8 +6235,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
@@ -6248,8 +6248,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
@@ -6261,8 +6261,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
@@ -6274,8 +6274,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
@@ -6287,8 +6287,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
@@ -6300,8 +6300,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
@@ -6313,8 +6313,8 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
-	relative_install_path: "hw",
 	prefer: true,
+	relative_install_path: "hw",
 	soc_specific: true,
 }
 
