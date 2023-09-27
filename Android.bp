@@ -3609,7 +3609,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/camera.qcom.so",
             ],
             shared_libs: [
-                "libcomparetf2",
+                "libcomparetf2_shim",
                 "libc++-v28",
                 "libcutils",
                 "liblog",
