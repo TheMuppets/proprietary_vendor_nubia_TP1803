@@ -280,23 +280,6 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libswvdec \
     libvppclient \
-    capi_v2_aptX_CLHDAD_Encoder \
-    libVC1Dec \
-    libVC1DecDsp_skel \
-    libapps_mem_heap \
-    libcamera_nn_skel \
-    libcvpdsp_skel \
-    libdspCV_skel \
-    libdsp_streamer_add_constant \
-    libdsp_streamer_binning \
-    libdsp_streamer_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     libasphere \
     libshoebox \
     com.qti.sensor.tp1803_imx586 \
@@ -452,8 +435,8 @@ PRODUCT_PACKAGES += \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
     libsnsapi \
-    libsnsv28 \
     libsnsdiaglog \
+    libsnsv28 \
     libspcom \
     libssc \
     libssc_default_listener \
@@ -536,6 +519,23 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
+    capi_v2_aptX_CLHDAD_Encoder \
+    libVC1Dec \
+    libVC1DecDsp_skel \
+    libapps_mem_heap \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     com.qualcomm.qti.dpm.api@1.0_system_ext \
     lib-imsvideocodec \
     lib-imsvt \
