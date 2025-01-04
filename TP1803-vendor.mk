@@ -252,16 +252,7 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     sound_trigger.primary.msmnile \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxDsdDec \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
     libOmxVpp \
-    libOmxWmaDec \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -271,7 +262,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti \
     libcapiv2svacnn \
     libcapiv2vop \
-    libdsd2pcm \
     libqtigef \
     libsmwrapper \
     libvppclient \
