@@ -11438,6 +11438,8 @@ cc_prebuilt_binary {
                 "liblog",
                 "libqmi_common_so",
                 "libqmi_cci",
+                "libthermalclient",
+                "libtinyxml2",
                 "libc++",
                 "libc",
                 "libm",
