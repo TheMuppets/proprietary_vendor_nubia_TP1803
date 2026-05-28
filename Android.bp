@@ -1735,37 +1735,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "sound_trigger.primary.msmnile",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/sound_trigger.primary.msmnile.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libtinyalsa",
-                "libaudioroute",
-                "libexpat",
-                "libhardware_legacy",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
     owner: "nubia",
     strip: {
@@ -10908,31 +10877,6 @@ sh_binary {
     owner: "nubia",
     src: "proprietary/vendor/bin/init.qti.chg_policy.sh",
     filename: "init.qti.chg_policy.sh",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "irsc_util",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/irsc_util",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
     soc_specific: true,
 }
 

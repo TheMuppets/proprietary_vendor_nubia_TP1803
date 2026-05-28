@@ -252,7 +252,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     btaudio_offload_if \
-    sound_trigger.primary.msmnile \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libacdb-fts \
     libacdbloader \
@@ -577,7 +576,6 @@ PRODUCT_PACKAGES += \
     imsqmidaemon \
     imsrcsd \
     init.qti.chg_policy \
-    irsc_util \
     ks \
     loc_launcher \
     lowi-server \
